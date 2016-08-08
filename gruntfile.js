@@ -7,7 +7,7 @@ module.exports = function(grunt) {
 
       jsdoc : {
           dist : {
-              src: ['*.js'],
+              src: ['src/*.js'],
               options: {
                   destination: 'doc'
               }
